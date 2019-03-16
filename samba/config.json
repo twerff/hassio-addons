@@ -29,4 +29,5 @@
   },
   "image": "homeassistant/{arch}-addon-samba",
   "devices": ["/dev/sda1:/dev/sda1:rwm"],
+  "privileged": ["SYS_ADMIN"]
 }
